@@ -34,7 +34,8 @@ export default function HeroSection({ name, title, image, imageAlt }: HeroSectio
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              A passionate software engineer with a strong foundation in computer science and hands-on experience building scalable backend systems. I believe in writing clean, maintainable code and continuously learning to stay ahead in this ever-evolving field.
+              A passionate software engineer with a strong foundation in computer science and hands-on experience building scalable systems.
+               I believe in writing clean, maintainable code and continuously learning to stay ahead in this ever-evolving field.
             </p>
           </div>
           

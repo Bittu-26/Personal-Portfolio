@@ -16,10 +16,10 @@ const ResumeDownload = () => {
       setIsDownloading(false);
       
       // Actual download implementation would be:
-      // const link = document.createElement('a');
-      // link.href = '/assets/ayush-rawat-resume.pdf';
-      // link.download = 'Ayush_Rawat_Resume.pdf';
-      // link.click();
+      const link = document.createElement('a');
+      link.href = '/assets/Resume Z.pdf';
+      link.download = 'Ayush_Rawat_Resume.pdf';
+      link.click();
     }, 1500);
   };
 

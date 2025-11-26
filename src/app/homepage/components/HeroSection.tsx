@@ -16,7 +16,7 @@ interface CodeSnippet {
 const HeroSection = () => {
   const [isHydrated, setIsHydrated] = useState(false);
   const [typedText, setTypedText] = useState('');
-  const fullText = 'Backend Engineer & Problem Solver';
+  const fullText = 'Software Engineer & Problem Solver';
 
   useEffect(() => {
     setIsHydrated(true);
@@ -77,28 +77,28 @@ const HeroSection = () => {
     {
       name: 'GitHub',
       icon: 'CodeBracketIcon',
-      url: 'https://github.com/ayushrawat',
+      url: 'https://github.com/Bittu-26',
       label: 'View GitHub Profile',
     },
     {
       name: 'LinkedIn',
       icon: 'BriefcaseIcon',
-      url: 'https://linkedin.com/in/ayushrawat',
+      url: 'https://linkedin.com/in/rawat8221',
       label: 'Connect on LinkedIn',
     },
     {
       name: 'Email',
       icon: 'EnvelopeIcon',
-      url: 'mailto:ayush.rawat@example.com',
+      url: 'mailto:rawatayush905@gmail.com',
       label: 'Send Email',
     },
   ];
 
   const stats = [
-    { label: 'Years Experience', value: '2+' },
+    { label: 'Years Experience', value: '1+' },
     { label: 'Projects Completed', value: '15+' },
     { label: 'Technologies', value: '20+' },
-    { label: 'Code Commits', value: '1000+' },
+    { label: 'Code Commits', value: '100+' },
   ];
 
   return (
@@ -152,10 +152,8 @@ const HeroSection = () => {
 
           {/* Description */}
           <p className="max-w-3xl mx-auto text-lg sm:text-xl text-muted-foreground leading-relaxed animate-fade-in-delay">
-            I build scalable backend systems and solve complex problems with
-            clean, efficient code. Specializing in system optimization,
-            debugging, and creating robust architectures that power modern
-            applications.
+            Software engineer skilled in full-stack development, API design, database systems, and delivering efficient, 
+            reliable solutions with strong problem solving and CS fundamentals.
           </p>
 
           {/* CTA Buttons */}

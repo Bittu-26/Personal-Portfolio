@@ -12,12 +12,12 @@ const AboutPreview = () => {
   const highlights: Highlight[] = [
   {
     icon: 'AcademicCapIcon',
-    title: 'IIT Kharagpur',
+    title: 'Uttaranchal University ',
     description: 'Strong computer science fundamentals with focus on algorithms and system design'
   },
   {
     icon: 'CodeBracketSquareIcon',
-    title: 'Backend Specialist',
+    title: 'Aspiring Software Engineer',
     description: 'Expert in building scalable systems with performance optimization'
   },
   {
@@ -40,8 +40,8 @@ const AboutPreview = () => {
           <div className="relative">
             <div className="relative w-full aspect-square max-w-md mx-auto lg:mx-0 rounded-2xl overflow-hidden border-4 border-primary shadow-elevation">
               <AppImage
-                src="https://img.rocket.new/generatedImages/rocket_gen_img_1f2277bfd-1763295470977.png"
-                alt="Professional portrait of young male software engineer with short dark hair wearing casual blue shirt in modern office setting with computer monitors in background"
+                src="assets/image.png"
+                alt="Professional portrait"
                 className="w-full h-full object-cover" />
 
             </div>
@@ -57,7 +57,7 @@ const AboutPreview = () => {
                 About Me
               </p>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-                The Analytical Problem Solver
+                Aspiring Software Engineer & Problem Solver
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 I represent the next generation of software engineers who combine

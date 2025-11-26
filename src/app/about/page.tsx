@@ -9,7 +9,7 @@ import CTASection from './components/CTASection';
 
 export const metadata: Metadata = {
   title: 'About - Ayush Rawat Portfolio',
-  description: 'Learn about Ayush Rawat\'s journey as a software engineer, technical philosophy, core values, and the experiences that shaped his career in backend development and full-stack engineering.'
+  description: 'Learn about Ayush Rawat\'s journey as a software engineer, technical philosophy, core values, and the experiences that shaped his career in software development and full-stack engineering.'
 };
 
 interface PhilosophyItem {
@@ -45,9 +45,9 @@ interface Value {
 export default function AboutPage() {
   const heroData = {
     name: "Ayush Rawat",
-    title: "Backend Engineer & Problem Solver",
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1f3f78660-1763295972306.png",
-    imageAlt: "Professional headshot of young Indian male software engineer with short black hair wearing navy blue shirt against neutral background"
+    title: "Aspiring Software Engineer & Problem Solver",
+    image: "assets/image.png",
+    imageAlt: "Professional headshot"
   };
 
   const philosophies: PhilosophyItem[] = [
@@ -75,79 +75,55 @@ export default function AboutPage() {
 
   const timelineEvents: TimelineEvent[] = [
   {
-    year: "2024",
-    title: "Software Engineering Intern",
-    organization: "IIT Kharagpur - Technology Innovation Hub",
+    year: "2025",
+    title: "Engineering Intern",
+    organization: "IIT Kharagpur",
     description: "Contributed to cutting-edge research projects focusing on scalable backend systems and data processing pipelines. Worked closely with professors and PhD students on real-world problem-solving.",
     achievements: [
-    "Optimized database queries reducing response time by 40%",
-    "Implemented RESTful APIs serving 10,000+ daily requests",
-    "Collaborated with cross-functional teams on microservices architecture",
-    "Mentored junior developers on best coding practices"],
+    'Led development of a YOLO-based accident-detection system, achieving 92%+ real-time detection accuracy and reducing false positives by ~18% through improved preprocessing and model tuning. ',
+        'Built an interactive analytics dashboard (Node.js, HTML/CSS, Python) that reduced incident-review time by 35%, improving visualization clarity and usability for cross-functional teams.  ',
+        ' Implemented automated model-training workflows and integrated backend services with the dashboard, enabling 100% seamless data flow and improving inference pipeline stability by 30%. ',
+        ' Optimized preprocessing, training, and deployment pipelines, cutting inference latency by 40 ms and improving model reliability and scalability for continuous real-time monitoring.',
+      ],
 
     type: "experience"
   },
   {
-    year: "2023",
+    year: "2022",
     title: "Bachelor of Technology in Computer Science",
-    organization: "Premier Engineering College",
+    organization: "Uttaranchal University",
     description: "Built strong foundations in data structures, algorithms, operating systems, and database management. Maintained excellent academic performance while actively participating in coding competitions.",
     achievements: [
-    "CGPA: 8.7/10.0 with Dean's List recognition",
+    "CGPA: 8.23/10.0 with Dean's List recognition",
     "Led college coding club with 200+ active members",
     "Won 3 inter-college hackathons focusing on backend solutions",
     "Published research paper on distributed systems optimization"],
 
     type: "education"
-  },
-  {
-    year: "2022",
-    title: "Technical Lead - College Fest",
-    organization: "Annual Technical Symposium",
-    description: "Managed technical infrastructure for college's largest annual event with 5,000+ participants. Coordinated with 15-member technical team to ensure seamless event execution.",
-    achievements: [
-    "Developed event management system handling 5,000+ registrations",
-    "Implemented real-time leaderboard for coding competitions",
-    "Zero downtime during 3-day event with 50+ concurrent sessions",
-    "Received Best Technical Team award from college administration"],
-
-    type: "achievement"
-  },
-  {
-    year: "2021",
-    title: "First Open Source Contribution",
-    organization: "Major Python Framework",
-    description: "Made first significant contribution to open-source community by fixing critical bug in popular Python web framework. This experience sparked passion for collaborative development.",
-    achievements: [
-    "Pull request merged into main branch with 50K+ stars",
-    "Bug fix improved performance for 100,000+ developers",
-    "Received mentorship from core maintainers",
-    "Started contributing regularly to multiple projects"],
-
-    type: "achievement"
-  }];
+  }
+];
 
 
   const interests: Interest[] = [
   {
     icon: "BookOpenIcon",
-    title: "Technical Reading",
-    description: "Constantly exploring system design books, research papers, and technical blogs to deepen understanding of distributed systems and scalability patterns.",
-    image: "https://images.unsplash.com/photo-1684679601884-a6061e4f12ec",
-    imageAlt: "Stack of technical programming books on wooden desk with laptop and coffee mug in background"
+    title: "Games & Puzzles",
+    description: "Constantly exploring new games and puzzels(Chess) to deepen understanding of patterns.",
+    image: "assets/Games.jpg",
+    imageAlt: "Games Image"
   },
   {
     icon: "MusicalNoteIcon",
-    title: "Music Production",
-    description: "Creating electronic music as a creative outlet. The logical patterns in music composition surprisingly mirror software architecture principles.",
-    image: "https://images.unsplash.com/photo-1625017134591-7b7db7bcd640",
-    imageAlt: "Digital audio workstation software interface on laptop screen with MIDI keyboard and studio monitors"
+    title: "Sports",
+    description: "A sports prodigy in basketball, football, cricket, and other outdoor sports, showing mastery across all sports.",
+    image: "assets/Sports.jpg",
+    imageAlt: "A sports prodigy in basketball, football, cricket, and other outdoor sports, showing mastery across all sports."
   },
   {
     icon: "CameraIcon",
-    title: "Photography",
-    description: "Capturing moments through street and landscape photography. The attention to detail required translates well into debugging and code optimization.",
-    image: "https://images.unsplash.com/photo-1640110441124-d22c2d51767e",
+    title: "Problem Solving",
+    description: "Solving new Leetcode Problems and code optimization.",
+    image: "assets/Problem.png",
     imageAlt: "Professional DSLR camera with telephoto lens on tripod overlooking mountain landscape at sunset"
   }];
 

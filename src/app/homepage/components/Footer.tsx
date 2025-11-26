@@ -26,22 +26,17 @@ const Footer = () => {
       {
         name: 'GitHub',
         icon: 'CodeBracketIcon',
-        url: 'https://github.com/ayushrawat',
+        url: 'https://github.com/Bittu-26',
       },
       {
         name: 'LinkedIn',
         icon: 'BriefcaseIcon',
-        url: 'https://linkedin.com/in/ayushrawat',
-      },
-      {
-        name: 'Twitter',
-        icon: 'AtSymbolIcon',
-        url: 'https://twitter.com/ayushrawat',
+        url: 'https://linkedin.com/in/rawat8221',
       },
       {
         name: 'Email',
         icon: 'EnvelopeIcon',
-        url: 'mailto:ayush.rawat@example.com',
+        url: 'mailto:rawatayush905@gmail.com',
       },
     ],
   };
@@ -80,11 +75,11 @@ const Footer = () => {
                 </defs>
               </svg>
               <span className="text-xl font-bold text-foreground font-mono">
-                Ayush<span className="text-primary">.</span>dev
+                Ayush<span className="text-primary"> </span>Rawat
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Backend Engineer & Problem Solver building scalable systems and
+              Aspiring Software Engineer & Problem Solver building scalable systems and
               elegant solutions.
             </p>
           </div>
@@ -146,7 +141,7 @@ const Footer = () => {
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <span>Built with</span>
             <Icon name="HeartIcon" size={16} variant="solid" className="text-primary" />
-            <span>and Next.js</span>
+            <span>By Ayush</span>
           </div>
         </div>
       </div>

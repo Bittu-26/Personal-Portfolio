@@ -39,62 +39,44 @@ interface SkillCategory {
 export default function ResumePage() {
   const personalInfo = {
     name: 'Ayush Rawat',
-    title: 'Backend Engineer & Full Stack Developer',
-    email: 'ayush.rawat@email.com',
-    phone: '+91 98765 43210',
-    location: 'Bangalore, India',
-    linkedin: 'linkedin.com/in/ayushrawat',
-    github: 'github.com/ayushrawat',
-    website: 'ayushrawat.dev',
+    title: 'Aspiring Software Engineer & Full Stack Developer',
+    email: 'rawatayush905@gmail.com',
+    phone: '+91 70882 10944',
+    location: 'Dehradun, India',
+    linkedin: 'linkedin.com/in/rawat8221',
+    github: 'github.com/Bittu-26',
+    website: 'ayush-personal-portfolio-sage.vercel.app',
   };
 
-  const summary = `Passionate Backend Engineer with 2+ years of experience building scalable web applications and RESTful APIs. 
-  Specialized in Node.js, Python, and cloud technologies with proven ability to optimize system performance and reduce response times. 
-  Strong foundation in data structures, algorithms, and distributed systems. Experienced in collaborating with cross-functional teams 
-  to deliver high-quality software solutions. Seeking challenging opportunities to leverage technical expertise in building robust 
-  backend systems and contributing to innovative projects.`;
+  const summary = `Full-Stack Software Engineer building performant web apps and full stack services. 
+  Skilled in Python, Java, MERN, AI/ML and DataBase Technologies. 
+  Strong problem solving background and experience shipping production-ready features end-to-end. 
+  Seeking roles where I can build scalable systems and contribute to high-growth engineering teams.`;
 
   const experiences: Experience[] = [
     {
-      title: 'Software Engineering Intern',
-      company: 'IIT Kharagpur - Technology Innovation Hub',
+      title: 'Engineering Intern',
+      company: 'IIT Kharagpur',
       location: 'Kharagpur, West Bengal',
-      period: 'Jan 2024 - Present',
+      period: 'Jan 2025 - Jul 2025',
       description: 'Contributing to research projects focusing on scalable backend systems and data processing pipelines.',
       responsibilities: [
-        'Designed and implemented RESTful APIs using Node.js and Express.js serving 10,000+ daily requests',
-        'Optimized PostgreSQL database queries reducing response time by 40% through indexing and query optimization',
-        'Developed microservices architecture for distributed data processing using Docker and Kubernetes',
-        'Implemented Redis caching layer improving API performance by 60%',
-        'Collaborated with PhD students on research papers related to distributed systems optimization',
-        'Mentored 3 junior developers on best practices for backend development and code reviews',
+        'Led development of a YOLO-based accident-detection system, achieving 92%+ real-time detection accuracy and reducing false positives by ~18% through improved preprocessing and model tuning. ',
+        'Built an interactive analytics dashboard (Node.js, HTML/CSS, Python) that reduced incident-review time by 35%, improving visualization clarity and usability for cross-functional teams.  ',
+        ' Implemented automated model-training workflows and integrated backend services with the dashboard, enabling 100% seamless data flow and improving inference pipeline stability by 30%. ',
+        ' Optimized preprocessing, training, and deployment pipelines, cutting inference latency by 40 ms and improving model reliability and scalability for continuous real-time monitoring.',
       ],
-      technologies: ['Node.js', 'Express.js', 'PostgreSQL', 'Redis', 'Docker', 'Kubernetes', 'AWS'],
-    },
-    {
-      title: 'Backend Developer Intern',
-      company: 'Tech Startup Solutions',
-      location: 'Bangalore, India',
-      period: 'Jun 2023 - Dec 2023',
-      description: 'Worked on developing scalable backend solutions for e-commerce platform.',
-      responsibilities: [
-        'Built payment integration system processing 1000+ transactions daily with 99.9% success rate',
-        'Implemented JWT-based authentication and authorization for secure API access',
-        'Developed automated testing suite with 85% code coverage using Jest and Supertest',
-        'Created comprehensive API documentation using Swagger/OpenAPI specifications',
-        'Participated in Agile ceremonies including sprint planning, standups, and retrospectives',
-      ],
-      technologies: ['Python', 'Django', 'MongoDB', 'JWT', 'Stripe API', 'Jest', 'Git'],
+      technologies: ['Python', 'HTML', 'CSS', 'NodeJs', 'AI/ML', 'YOLO', 'Computer Vision'],
     },
   ];
 
   const education: Education[] = [
     {
       degree: 'Bachelor of Technology in Computer Science',
-      institution: 'Premier Engineering College',
-      location: 'India',
-      period: '2021 - 2025',
-      gpa: '8.7/10.0',
+      institution: 'Uttaranchal University',
+      location: 'Dehradun, India',
+      period: '2022 - 2026',
+      gpa: '8.23/10.0',
       achievements: [
         "Dean's List recognition for academic excellence (2022, 2023)",
         'Led college coding club with 200+ active members organizing weekly workshops',
@@ -105,12 +87,12 @@ export default function ResumePage() {
     },
     {
       degree: 'Higher Secondary Education',
-      institution: 'National Public School',
-      location: 'India',
-      period: '2019 - 2021',
-      gpa: '92%',
+      institution: 'CJM Hampton Court',
+      location: 'Mussoorie, India',
+      period: '2020 - 2022',
+      gpa: '78%',
       achievements: [
-        'School topper in Computer Science with 98% marks',
+        'School topper in Computer Science with 95% marks',
         'Represented school in national-level coding olympiad',
         'Led robotics club and built autonomous line-following robot',
       ],
@@ -120,23 +102,23 @@ export default function ResumePage() {
   const skillCategories: SkillCategory[] = [
     {
       category: 'Programming Languages',
-      skills: ['JavaScript/TypeScript', 'Python', 'Java', 'C++', 'SQL'],
+      skills: ['Python', 'Java', 'C++', 'C#', 'JavaScript', 'HTML', 'CSS'],
     },
     {
       category: 'Backend Technologies',
-      skills: ['Node.js', 'Express.js', 'Django', 'FastAPI', 'Flask', 'REST APIs', 'GraphQL'],
+      skills: ['Node.js', 'Express.js', 'Django', 'FastAPI', 'Flask', 'REST APIs'],
     },
     {
       category: 'Databases',
-      skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'Redis', 'DynamoDB'],
+      skills: [ 'MongoDB', 'MySQL', ],
     },
     {
       category: 'Cloud & DevOps',
-      skills: ['AWS (EC2, S3, Lambda)', 'Docker', 'Kubernetes', 'CI/CD', 'Jenkins', 'GitHub Actions'],
+      skills: ['AWS (EC2, S3, Lambda)', 'Docker'],
     },
     {
       category: 'Tools & Frameworks',
-      skills: ['Git', 'Postman', 'Swagger', 'Jest', 'Pytest', 'Linux', 'Nginx'],
+      skills: ['Git', 'Postman', 'Linux'],
     },
     {
       category: 'Concepts',

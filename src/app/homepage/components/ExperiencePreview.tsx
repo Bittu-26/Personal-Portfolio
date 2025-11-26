@@ -16,29 +16,18 @@ const ExperiencePreview = () => {
     {
       id: 1,
       company: 'IIT Kharagpur',
-      role: 'Software Engineering Intern',
-      duration: 'Jun 2024 - Aug 2024',
+      role: 'Engineering Intern',
+      duration: 'Jun 2025 - Jul 2025',
       location: 'Kharagpur, India',
       highlights: [
-        'Optimized database queries reducing response time by 40%',
-        'Implemented caching layer with Redis improving throughput by 3x',
-        'Developed RESTful APIs serving 100,000+ daily requests',
+        'Led development of a YOLO-based accident-detection system, achieving 92%+ real-time detection accuracy and reducing false positives by ~18% through improved preprocessing and model tuning. ',
+        'Built an interactive analytics dashboard (Node.js, HTML/CSS, Python) that reduced incident-review time by 35%, improving visualization clarity and usability for cross-functional teams.  ',
+        ' Implemented automated model-training workflows and integrated backend services with the dashboard, enabling 100% seamless data flow and improving inference pipeline stability by 30%. ',
+        ' Optimized preprocessing, training, and deployment pipelines, cutting inference latency by 40 ms and improving model reliability and scalability for continuous real-time monitoring.',
       ],
-      technologies: ['Python', 'Django', 'PostgreSQL', 'Redis', 'Docker'],
+      technologies: ['Python', 'HTML', 'CSS', 'NodeJs', 'AI/ML', 'YOLO', 'Computer Vision'],
     },
-    {
-      id: 2,
-      company: 'Tech Startup',
-      role: 'Backend Developer Intern',
-      duration: 'Jan 2024 - May 2024',
-      location: 'Remote',
-      highlights: [
-        'Built microservices architecture handling 50,000+ concurrent users',
-        'Implemented automated testing pipeline reducing bugs by 60%',
-        'Collaborated with cross-functional team on feature development',
-      ],
-      technologies: ['Node.js', 'MongoDB', 'AWS', 'Kubernetes', 'Jest'],
-    },
+    
   ];
 
   return (

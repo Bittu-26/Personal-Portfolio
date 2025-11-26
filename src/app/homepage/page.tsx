@@ -9,9 +9,9 @@ import CTASection from './components/CTASection';
 import Footer from './components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Home - Ayush Rawat | Backend Engineer & Problem Solver',
+  title: 'Home - Ayush Rawat | Aspiring Software Engineer & Problem Solver',
   description:
-    'Professional portfolio of Ayush Rawat, a backend engineer specializing in scalable systems, performance optimization, and elegant problem-solving. Explore projects, experience, and technical expertise.',
+    'Professional portfolio of Ayush Rawat, a aspiring software engineer specializing in scalable systems, performance optimization, and elegant problem solving. Explore projects, experience, and technical expertise.',
 };
 
 export default function HomePage() {

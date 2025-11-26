@@ -37,7 +37,7 @@ export default function CTASection({ bioUrl }: CTASectionProps) {
         
         <div className="mt-12 flex justify-center gap-6">
           <a
-            href="https://github.com/ayushrawat"
+            href="https://github.com/Bittu-26"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-card border border-border rounded-lg flex items-center justify-center hover:border-primary hover:bg-primary/10 transition-all duration-300"
@@ -46,7 +46,7 @@ export default function CTASection({ bioUrl }: CTASectionProps) {
             <Icon name="CodeBracketIcon" size={24} className="text-foreground" variant="outline" />
           </a>
           <a
-            href="https://linkedin.com/in/ayushrawat"
+            href="https://linkedin.com/in/rawat8221"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-card border border-border rounded-lg flex items-center justify-center hover:border-primary hover:bg-primary/10 transition-all duration-300"
@@ -55,7 +55,7 @@ export default function CTASection({ bioUrl }: CTASectionProps) {
             <Icon name="UserGroupIcon" size={24} className="text-foreground" variant="outline" />
           </a>
           <a
-            href="mailto:ayush@example.com"
+            href="mailto:rawatayush905@gmail.com"
             className="w-12 h-12 bg-card border border-border rounded-lg flex items-center justify-center hover:border-primary hover:bg-primary/10 transition-all duration-300"
             aria-label="Email Contact"
           >

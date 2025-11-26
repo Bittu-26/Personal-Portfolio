@@ -12,11 +12,14 @@ const CTASection = () => {
   }, []);
 
   const handleResumeDownload = () => {
-    if (!isHydrated) return;
-    // Mock resume download tracking
-    console.log('Resume download tracked');
+    const link = document.createElement('a');
+    link.href = '/assets/Resume Z.pdf';          // must be inside public/assets
+    link.download = 'Ayush_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
   };
-
+  
   return (
     <section className="py-20 bg-gradient-to-br from-primary/10 via-background to-brand-secondary/10">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -80,6 +83,7 @@ const CTASection = () => {
               <Icon name="ChatBubbleLeftRightIcon" size={20} variant="solid" />
               Start a Conversation
             </Link>
+            
             <button
               onClick={handleResumeDownload}
               className="w-full sm:w-auto px-8 py-4 bg-card text-foreground font-semibold rounded-lg border-2 border-primary hover:bg-primary/10 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
@@ -95,10 +99,10 @@ const CTASection = () => {
               Prefer email? Reach me directly at
             </p>
             <a
-              href="mailto:ayush.rawat@example.com"
+              href="mailto:rawatayush905@gmail.com"
               className="text-primary hover:text-primary/80 font-mono text-lg transition-colors duration-300"
             >
-              ayush.rawat@example.com
+              rawatayush905@gmail.com
             </a>
           </div>
         </div>

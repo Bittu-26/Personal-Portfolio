@@ -14,24 +14,24 @@ export default function ContactInfo() {
     {
       icon: 'EnvelopeIcon',
       label: 'Email',
-      value: 'ayush.rawat@example.com',
-      href: 'mailto:ayush.rawat@example.com',
+      value: 'rawatayush905@gmail.com',
+      href: 'mailto:rawatayush905@gmail.com',
       description: 'Best for detailed inquiries and job opportunities',
       responseTime: '24-48 hours',
     },
     {
       icon: 'PhoneIcon',
       label: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210',
+      value: '+91 70882 10944',
+      href: 'tel:+917088210944',
       description: 'Available for urgent technical discussions',
       responseTime: 'Mon-Fri, 10 AM - 6 PM IST',
     },
     {
       icon: 'MapPinIcon',
       label: 'Location',
-      value: 'Kharagpur, West Bengal, India',
-      href: 'https://maps.google.com/?q=22.3149,87.3105',
+      value: 'Dehradun, Uttarakhand, India',
+      href: 'https://www.google.com/maps/place/Uttaranchal+University/@30.3397274,77.9555129,17z/data=!4m6!3m5!1s0x3908d5612204efb7:0x5eef311e57b07271!8m2!3d30.3408277!4d77.9543886!16s%2Fm%2F0_lnq2b?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D',
       description: 'Open to remote opportunities worldwide',
       responseTime: 'UTC+5:30 (IST)',
     },
@@ -151,7 +151,7 @@ export default function ContactInfo() {
         <h2 className="text-xl font-bold text-foreground mb-4">Quick Actions</h2>
         <div className="space-y-3">
           <a
-            href="/assets/resume/ayush-rawat-resume.pdf"
+            href="/assets/Resume Z.pdf"
             download
             className="flex items-center justify-between p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-all duration-300 group"
           >

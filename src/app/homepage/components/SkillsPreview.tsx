@@ -10,17 +10,17 @@ interface Skill {
 
 const SkillsPreview = () => {
   const skills: Skill[] = [
-    { name: 'Python', level: 95, icon: 'CodeBracketIcon', category: 'Backend' },
-    { name: 'Java', level: 90, icon: 'CodeBracketSquareIcon', category: 'Backend' },
-    { name: 'Go', level: 85, icon: 'CommandLineIcon', category: 'Backend' },
-    { name: 'PostgreSQL', level: 90, icon: 'CircleStackIcon', category: 'Database' },
-    { name: 'Redis', level: 85, icon: 'ServerStackIcon', category: 'Database' },
+    
+    { name: 'Java', level: 90, icon: 'CodeBracketSquareIcon', category: 'Languages' },
+    { name: 'C#', level: 85, icon: 'CodeBracketSquareIcon', category: 'Languages' },
+    { name: 'Python', level: 75, icon: 'CodeBracketSquareIcon', category: 'Languages' },
+    { name: 'SQL', level: 90, icon: 'CircleStackIcon', category: 'Database' },
+    { name: 'MongoDB', level: 85, icon: 'ServerStackIcon', category: 'Database' },
     { name: 'Docker', level: 88, icon: 'CubeIcon', category: 'DevOps' },
-    { name: 'Kubernetes', level: 80, icon: 'CloudIcon', category: 'DevOps' },
     { name: 'System Design', level: 92, icon: 'CpuChipIcon', category: 'Architecture' },
   ];
 
-  const categories = ['Backend', 'Database', 'DevOps', 'Architecture'];
+  const categories = ['Languages', 'Database', 'DevOps', 'Architecture'];
 
   return (
     <section className="py-20 bg-card">
@@ -34,8 +34,8 @@ const SkillsPreview = () => {
             Skills & Technologies
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive technical stack with deep expertise in backend
-            development and system architecture
+            Comprehensive technical stack with deep expertise in Software
+            development and Full Stack
           </p>
         </div>
 

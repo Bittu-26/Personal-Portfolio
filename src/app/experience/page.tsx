@@ -24,7 +24,8 @@ export default function ExperiencePage() {
               </h1>
             </div>
             <p className="text-xl text-muted-foreground max-w-3xl leading-relaxed">
-              A comprehensive overview of my software engineering journey, showcasing technical contributions, measurable impact, and continuous growth in backend development and distributed systems.
+              A comprehensive overview of my software engineering journey, showcasing technical contributions, measurable impact, 
+              and continuous growth in Software development and full stack development.
             </p>
           </div>
 
@@ -42,7 +43,7 @@ export default function ExperiencePage() {
             </p>
             <div className="flex items-center gap-6">
               <a
-                href="https://github.com/ayushrawat"
+                href="https://github.com/Bittu-26"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -51,7 +52,7 @@ export default function ExperiencePage() {
                 <Icon name="CodeBracketIcon" size={20} variant="outline" />
               </a>
               <a
-                href="https://linkedin.com/in/ayushrawat"
+                href="https://linkedin.com/in/rawat8221"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -60,7 +61,7 @@ export default function ExperiencePage() {
                 <Icon name="UserGroupIcon" size={20} variant="outline" />
               </a>
               <a
-                href="mailto:ayush@example.com"
+                href="mailto:rawatayush905@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors duration-300"
                 aria-label="Email Contact"
               >

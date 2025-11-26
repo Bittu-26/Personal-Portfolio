@@ -53,7 +53,7 @@ export default function ContactPage() {
             <div className="mb-4">
               <h2 className="text-2xl font-bold text-foreground mb-2">Location</h2>
               <p className="text-muted-foreground">
-                Based in Kharagpur, West Bengal, India. Open to remote work and relocation opportunities worldwide.
+                Based in Dehradun, Uttarakhand, India. Open to remote work and relocation opportunities worldwide.
               </p>
             </div>
             <div className="w-full h-96 rounded-lg overflow-hidden border border-border">
@@ -61,9 +61,9 @@ export default function ContactPage() {
                 width="100%"
                 height="100%"
                 loading="lazy"
-                title="Kharagpur, West Bengal, India"
+                title=" Dehradun, Uttarakhand, India"
                 referrerPolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps?q=22.3149,87.3105&z=14&output=embed"
+                src="https://www.google.com/maps?q=Uttaranchal+University+Dehradun&z=14&output=embed"
                 className="w-full h-full"
               />
             </div>
