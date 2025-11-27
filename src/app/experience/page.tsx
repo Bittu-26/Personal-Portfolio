@@ -25,7 +25,7 @@ export default function ExperiencePage() {
             </div>
             <p className="text-xl text-muted-foreground max-w-3xl leading-relaxed">
               A comprehensive overview of my software engineering journey, showcasing technical contributions, measurable impact, 
-              and continuous growth in Software development and full stack development.
+              and continuous growth in software development and full stack development.
             </p>
           </div>
 

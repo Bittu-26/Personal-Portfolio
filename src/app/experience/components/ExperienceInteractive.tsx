@@ -70,174 +70,86 @@ const ExperienceInteractive = () => {
 
   const experiences: Experience[] = [
   {
-    id: 1,
-    company: "Indian Institute of Technology Kharagpur",
-    role: "Software Engineering Intern",
-    duration: "May 2024 - July 2024",
-    location: "Kharagpur, West Bengal",
-    type: "Internship",
-    logo: "IIT",
-    description: "Contributed to cutting-edge research projects in distributed systems and backend optimization. Worked closely with PhD researchers and faculty members to develop scalable solutions for high-performance computing applications.",
-    techStack: [
-    { name: "Python", category: "Languages" },
-    { name: "Java", category: "Languages" },
-    { name: "C++", category: "Languages" },
-    { name: "Django", category: "Frameworks" },
-    { name: "Flask", category: "Frameworks" },
-    { name: "PostgreSQL", category: "Databases" },
-    { name: "Redis", category: "Databases" },
-    { name: "Docker", category: "DevOps" },
-    { name: "Kubernetes", category: "DevOps" },
-    { name: "Git", category: "Tools" },
-    { name: "Linux", category: "Tools" },
-    { name: "AWS", category: "Cloud" }],
+      id: 1,
+      company: "Indian Institute of Technology Kharagpur",
+      role: "Engineering Intern",
+      duration: "Jun 2025 - Jul 2025",
+      location: "Kharagpur, West Bengal",
+      type: "Internship",
+      logo: "IIT",
+      description:
+        "Contributed to cutting-edge research projects in distributed systems and backend optimization. Worked closely with PhD researchers and faculty members to develop scalable solutions for high-performance computing applications.",
 
-    achievements: [
-    {
-      title: "Performance Optimization",
-      description: "Optimized database query performance for research data processing pipeline, implementing advanced indexing strategies and query optimization techniques.",
-      impact: "Reduced query execution time by 65% and improved overall system throughput by 40%"
-    },
-    {
-      title: "Distributed System Architecture",
-      description: "Designed and implemented a distributed task scheduling system for parallel computation workloads using message queues and worker pools.",
-      impact: "Enabled processing of 10x larger datasets with 99.9% reliability and fault tolerance"
-    },
-    {
-      title: "API Development",
-      description: "Built RESTful APIs for research data access and visualization, implementing proper authentication, rate limiting, and comprehensive documentation.",
-      impact: "Facilitated collaboration across 5 research teams with 200+ daily API requests"
-    }],
+      techStack: [
+        { name: "Python", category: "Languages" },
+        { name: "Java", category: "Languages" },
+        { name: "C++", category: "Languages" },
+        { name: "Django", category: "Frameworks" },
+        { name: "Flask", category: "Frameworks" },
+        { name: "SQL", category: "Databases" },
+        { name: "MongoDB", category: "Databases" },
+        { name: "Docker", category: "DevOps" },
+        
+        { name: "Git", category: "Tools" },
+        { name: "Linux", category: "Tools" },
+        { name: "AWS", category: "Cloud" }
+      ],
 
-    teamSize: 8,
-    reportingTo: "Dr. Rajesh Kumar, Associate Professor",
-    keyProjects: [
-    "Distributed Computing Framework for Scientific Simulations",
-    "Real-time Data Processing Pipeline for IoT Sensor Networks",
-    "Research Data Management System with Advanced Analytics",
-    "Automated Testing Framework for Backend Services"]
+      achievements: [
+        {
+          title: "Real-Time Accident Detection System",
+          description:
+            "Led development of a YOLO-based accident-detection system with improved preprocessing, fine-tuning, and model optimization techniques.",
+          impact:
+            "Achieved 92%+ real-time detection accuracy and reduced false positives by ~18%"
+        },
+        {
+          title: "Interactive Analytics Dashboard",
+          description:
+            "Built a full-stack analytics dashboard using Node.js, Python, and HTML/CSS to streamline visualization and incident analysis workflows.",
+          impact:
+            "Reduced incident-review time by 35% and enhanced clarity for cross-functional teams"
+        },
+        {
+          title: "Automated Training & Backend Integration",
+          description:
+            "Implemented automated model-training workflows and integrated backend services with the dashboard for seamless data processing.",
+          impact:
+            "Enabled 100% consistent data flow and improved inference pipeline stability by 30%"
+        },
+        {
+          title: "Model & Pipeline Optimization",
+          description:
+            "Optimized preprocessing, training, and deployment pipelines to enhance real-time monitoring performance.",
+          impact:
+            "Cut inference latency by 40ms and improved system reliability and scalability for continuous monitoring"
+        }
+      ],
 
-  },
-  {
-    id: 2,
-    company: "TechStart Solutions",
-    role: "Backend Developer Intern",
-    duration: "January 2024 - April 2024",
-    location: "Bangalore, Karnataka",
-    type: "Internship",
-    logo: "TS",
-    description: "Developed and maintained backend services for a fintech startup, focusing on payment processing, user authentication, and data security. Collaborated with cross-functional teams to deliver features on tight deadlines.",
-    techStack: [
-    { name: "Node.js", category: "Languages" },
-    { name: "TypeScript", category: "Languages" },
-    { name: "Express.js", category: "Frameworks" },
-    { name: "MongoDB", category: "Databases" },
-    { name: "MySQL", category: "Databases" },
-    { name: "JWT", category: "Security" },
-    { name: "OAuth", category: "Security" },
-    { name: "Jest", category: "Testing" },
-    { name: "Postman", category: "Tools" },
-    { name: "GitHub Actions", category: "DevOps" }],
-
-    achievements: [
-    {
-      title: "Payment Gateway Integration",
-      description: "Integrated multiple payment gateways with proper error handling, retry mechanisms, and transaction logging for audit compliance.",
-      impact: "Processed $500K+ in transactions with 99.99% success rate and zero security incidents"
-    },
-    {
-      title: "Authentication System",
-      description: "Implemented secure JWT-based authentication with refresh tokens, role-based access control, and session management.",
-      impact: "Reduced authentication-related support tickets by 80% and improved user experience"
-    },
-    {
-      title: "Database Optimization",
-      description: "Refactored database schema and queries, implementing proper indexing and caching strategies for frequently accessed data.",
-      impact: "Improved API response times by 55% and reduced database load by 45%"
-    }],
-
-    teamSize: 12,
-    reportingTo: "Priya Sharma, Engineering Manager",
-    keyProjects: [
-    "Multi-tenant Payment Processing System",
-    "User Authentication and Authorization Service",
-    "Transaction Monitoring and Fraud Detection",
-    "API Rate Limiting and Throttling Implementation"]
-
-  },
-  {
-    id: 3,
-    company: "CodeCraft Academy",
-    role: "Teaching Assistant",
-    duration: "August 2023 - December 2023",
-    location: "Remote",
-    type: "Part-time",
-    logo: "CC",
-    description: "Mentored students in data structures, algorithms, and backend development. Conducted code reviews, debugging sessions, and technical workshops to help students build strong programming fundamentals.",
-    techStack: [
-    { name: "Python", category: "Languages" },
-    { name: "JavaScript", category: "Languages" },
-    { name: "Data Structures", category: "Concepts" },
-    { name: "Algorithms", category: "Concepts" },
-    { name: "System Design", category: "Concepts" },
-    { name: "Git", category: "Tools" },
-    { name: "VS Code", category: "Tools" }],
-
-    achievements: [
-    {
-      title: "Student Mentorship",
-      description: "Provided one-on-one mentorship to 50+ students, helping them understand complex programming concepts and debugging techniques.",
-      impact: "Achieved 95% student satisfaction rating and 80% course completion rate"
-    },
-    {
-      title: "Curriculum Development",
-      description: "Created comprehensive learning materials, coding exercises, and project templates for backend development courses.",
-      impact: "Improved student learning outcomes by 40% based on assessment scores"
-    },
-    {
-      title: "Technical Workshops",
-      description: "Conducted weekly workshops on debugging strategies, code optimization, and best practices in software development.",
-      impact: "Trained 200+ students with 90% positive feedback on workshop effectiveness"
-    }],
-
-    teamSize: 5,
-    reportingTo: "Amit Verma, Lead Instructor",
-    keyProjects: [
-    "Interactive Coding Challenges Platform",
-    "Automated Code Review System",
-    "Student Progress Tracking Dashboard",
-    "Technical Interview Preparation Resources"]
-
-  }];
-
+      teamSize: 4,
+      reportingTo: "Professor Richa Ahuja",
+      keyProjects: [
+        'Led development of a YOLO-based accident-detection system, achieving 92%+ real-time detection accuracy and reducing false positives by ~18% through improved preprocessing and model tuning.',
+        'Built an interactive analytics dashboard (Node.js, HTML/CSS, Python) that reduced incident-review time by 35%, improving visualization clarity and usability for cross-functional teams.',
+        'Implemented automated model-training workflows and integrated backend services with the dashboard, enabling 100% seamless data flow and improving inference pipeline stability by 30%.',
+        'Optimized preprocessing, training, and deployment pipelines, cutting inference latency by 40 ms and improving model reliability and scalability for continuous real-time monitoring.'
+      ]
+    }
+  ];
 
   const timelineItems: TimelineItem[] = [
   {
-    year: "2024",
-    title: "Software Engineering Intern at IIT Kharagpur",
+    year: "2025",
+    title: "Engineering Intern at IIT Kharagpur",
     description: "Advanced research in distributed systems and backend optimization with focus on scalable architecture design."
-  },
-  {
-    year: "2024",
-    title: "Backend Developer Intern at TechStart Solutions",
-    description: "Built secure payment processing systems and authentication services for fintech applications."
-  },
-  {
-    year: "2023",
-    title: "Teaching Assistant at CodeCraft Academy",
-    description: "Mentored students in programming fundamentals and conducted technical workshops on software development."
-  },
-  {
-    year: "2023",
-    title: "Started Computer Science Journey",
-    description: "Began formal education in computer science with focus on algorithms, data structures, and system design."
-  }];
+  }
+  ];
 
 
   const stats: Stat[] = [
   {
     label: "Years of Experience",
-    value: "2+",
+    value: "<1",
     icon: "CalendarIcon",
     color: "bg-primary/10 text-primary"
   },
@@ -254,8 +166,8 @@ const ExperienceInteractive = () => {
     color: "bg-accent/10 text-accent"
   },
   {
-    label: "Students Mentored",
-    value: "200+",
+    label: "Students Achievements",
+    value: "2+",
     icon: "AcademicCapIcon",
     color: "bg-warning/10 text-warning"
   }];
@@ -270,26 +182,6 @@ const ExperienceInteractive = () => {
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_18160d972-1763296688320.png",
     alt: "Middle-aged Indian professor with glasses and gray hair in formal attire",
     quote: "Ayush demonstrated exceptional problem-solving skills and a deep understanding of distributed systems. His contributions to our research projects were invaluable, and his ability to optimize complex algorithms was impressive.",
-    rating: 5
-  },
-  {
-    id: 2,
-    name: "Priya Sharma",
-    role: "Engineering Manager",
-    company: "TechStart Solutions",
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1238dde92-1763293896347.png",
-    alt: "Professional Indian woman with long black hair in business casual attire smiling",
-    quote: "Working with Ayush was a pleasure. He quickly grasped our payment processing requirements and delivered secure, scalable solutions. His attention to detail and commitment to code quality set him apart.",
-    rating: 5
-  },
-  {
-    id: 3,
-    name: "Amit Verma",
-    role: "Lead Instructor",
-    company: "CodeCraft Academy",
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1d577a93f-1763294375859.png",
-    alt: "Young Indian man with beard and casual shirt in teaching environment",
-    quote: "Ayush has a natural talent for breaking down complex concepts and making them accessible to students. His mentorship helped many students overcome programming challenges and build confidence in their abilities.",
     rating: 5
   }];
 
