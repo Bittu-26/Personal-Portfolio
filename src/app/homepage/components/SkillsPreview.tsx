@@ -14,6 +14,7 @@ const SkillsPreview = () => {
     { name: 'Java', level: 90, icon: 'CodeBracketSquareIcon', category: 'Languages' },
     { name: 'C#', level: 85, icon: 'CodeBracketSquareIcon', category: 'Languages' },
     { name: 'Python', level: 75, icon: 'CodeBracketSquareIcon', category: 'Languages' },
+    { name: 'TypeScript', level: 80, icon: 'CodeBracketSquareIcon', category: 'Languages' },
     { name: 'SQL', level: 90, icon: 'CircleStackIcon', category: 'Database' },
     { name: 'MongoDB', level: 85, icon: 'ServerStackIcon', category: 'Database' },
     { name: 'Docker', level: 88, icon: 'CubeIcon', category: 'DevOps' },

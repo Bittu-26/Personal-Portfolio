@@ -350,7 +350,7 @@ const ProjectsInteractive = () => {
             All projects are open source and available on GitHub. Feel free to explore the code, raise issues, or contribute to ongoing development.
           </p>
           <a
-            href="https://github.com/ayushrawat"
+            href="https://github.com/Bittu-26"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-md hover:bg-primary/90 transition-all duration-300">

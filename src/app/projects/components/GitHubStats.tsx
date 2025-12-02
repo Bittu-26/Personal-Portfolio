@@ -81,7 +81,7 @@ const GitHubStats = () => {
       {/* Streak Stats */}
       <div className="bg-muted/20 border border-gray-700/40 rounded-lg p-3">
         <img
-          src={`https://streak-stats.demolab.com?user=${username}&theme=tokyonight&hide_border=true`}
+          src={`https://nirzak-streak-stats.vercel.app/?user=Bittu-26&theme=tokyonight&show_icons=true&hide_border=true`}
           alt="GitHub Streak Stats"
           className="w-full h-auto rounded-md"
           onError={(e) => {
@@ -91,6 +91,7 @@ const GitHubStats = () => {
           }}
         />
       </div>
+      
 
       {/* GitHub General Stats */}
       <div className="bg-muted/20 border border-gray-700/40 rounded-lg p-3">
@@ -102,6 +103,18 @@ const GitHubStats = () => {
             const target = e.target as HTMLImageElement;
             target.src =
               "https://placehold.co/600x250/1f1f1f/aaa?text=Stats+Unavailable";
+          }}
+        />
+      </div>
+       <div className="bg-muted/20 border border-gray-700/40 rounded-lg p-3">
+        <img
+          src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=tokyonight&hide_border=true`}
+          alt="Most Used Languages"
+          className="w-full h-auto rounded-md"
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src =
+              "https://placehold.co/600x250/1f1f1f/aaa?text=Languages+Unavailable";
           }}
         />
       </div>
@@ -121,6 +134,7 @@ const GitHubStats = () => {
           }}
         />
       </div>
+     
 
     </div>
   );

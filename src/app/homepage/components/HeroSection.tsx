@@ -16,7 +16,7 @@ interface CodeSnippet {
 const HeroSection = () => {
   const [isHydrated, setIsHydrated] = useState(false);
   const [typedText, setTypedText] = useState('');
-  const fullText = 'Software Engineer & Problem Solver';
+  const fullText = 'Aspiring Software Engineer & Problem Solver';
 
   useEffect(() => {
     setIsHydrated(true);
@@ -95,10 +95,10 @@ const HeroSection = () => {
   ];
 
   const stats = [
-    { label: 'Years Experience', value: '1+' },
-    { label: 'Projects Completed', value: '15+' },
+    { label: 'Years Experience', value: 'Fresher' },
+    { label: 'Projects Completed', value: '20+' },
     { label: 'Technologies', value: '20+' },
-    { label: 'Code Commits', value: '100+' },
+    { label: 'Code Commits', value: '120+' },
   ];
 
   return (
