@@ -7,7 +7,7 @@ import SkillsPreview from './components/SkillsPreview';
 import ExperiencePreview from './components/ExperiencePreview';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
-
+ 
 export const metadata: Metadata = {
   title: 'Home - Ayush Rawat | Aspiring Software Engineer & Problem Solver',
   description:
@@ -29,4 +29,5 @@ export default function HomePage() {
       <Footer />
     </div>
   );
+
 }
