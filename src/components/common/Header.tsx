@@ -6,7 +6,7 @@ import Icon from '@/components/ui/AppIcon';
 
 interface HeaderProps {
   className?: string;
-}
+} 
 
 const Header = ({ className = '' }: HeaderProps) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -128,5 +128,6 @@ const Header = ({ className = '' }: HeaderProps) => {
     </header>
   );
 };
+
 
 export default Header;
