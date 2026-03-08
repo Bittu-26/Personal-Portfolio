@@ -6,7 +6,7 @@ const GitHubStats = () => {
   const username = "Bittu-26"; // your username
 
   const stats = [
-    {
+    { 
       label: 'Total Repositories',
       value: '15+',
       icon: 'CodeBracketIcon' as const,
@@ -141,3 +141,4 @@ const GitHubStats = () => {
 };
 
 export default GitHubStats;
+
