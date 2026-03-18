@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Icon from '@/components/ui/AppIcon';
 
-interface HeaderProps {
+interface HeaderProps { 
   className?: string;
 } 
  
