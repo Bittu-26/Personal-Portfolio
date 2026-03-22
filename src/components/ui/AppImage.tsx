@@ -8,7 +8,7 @@ interface AppImageProps {
     alt: string;
     width?: number;
     height?: number;
-    className?: string;
+    className?: string; 
     priority?: boolean;
     quality?: number;
     placeholder?: 'blur' | 'empty';
